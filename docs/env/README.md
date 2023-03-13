@@ -26,24 +26,6 @@ sudo apt-get install libsdl2-ttf-dev # SDL2_ttf
 sudo apt-get install libsdl2-mixer-dev # SDL2_mixer
 ```
 
-```bash
-sudo apt-get install libsdl2-image-dev # SDL2_image
-sudo apt-get install libsdl2-ttf-dev # SDL2_ttf
-sudo apt-get install libsdl2-mixer-dev # SDL2_mixer
-```
-
-```bash
-sudo apt-get install libsdl2-image-dev # SDL2_image
-sudo apt-get install libsdl2-ttf-dev # SDL2_ttf
-sudo apt-get install libsdl2-mixer-dev # SDL2_mixer
-```
-
-```bash
-sudo apt-get install libsdl2-image-dev # SDL2_image
-sudo apt-get install libsdl2-ttf-dev # SDL2_ttf
-sudo apt-get install libsdl2-mixer-dev # SDL2_mixer
-```
-
 ## xmake
 
 编译带资源文件的项目如下 [^sample] [^add rule] :
@@ -93,6 +75,10 @@ target("test-sdl-mixer")
   ```bash
   xmake l path.filename "./hello/hi.c"
   ```
+
+## debug
+
+借助[xmake-io/xmake-vscode](https://github.com/xmake-io/xmake-vscode)进行调试
 
 ## References
 
